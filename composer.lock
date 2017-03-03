@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.22.7",
+            "version": "3.22.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "eea83aaac2b6c86f72a5c85c54d1839b70d4fd21"
+                "reference": "b69d6ef0eb99ca1996d2b2e7ebf7e573415d0a18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/eea83aaac2b6c86f72a5c85c54d1839b70d4fd21",
-                "reference": "eea83aaac2b6c86f72a5c85c54d1839b70d4fd21",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b69d6ef0eb99ca1996d2b2e7ebf7e573415d0a18",
+                "reference": "b69d6ef0eb99ca1996d2b2e7ebf7e573415d0a18",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2017-02-17T20:09:40+00:00"
+            "time": "2017-02-21T21:11:29+00:00"
         },
         {
             "name": "devfactory/minify",
@@ -1202,16 +1202,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.4.12",
+            "version": "v5.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "707f32d32dce58232f7a860e0a1d62caf6f9dbfc"
+                "reference": "3eebfaa759156e06144892b00bb95304aa5a71c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/707f32d32dce58232f7a860e0a1d62caf6f9dbfc",
-                "reference": "707f32d32dce58232f7a860e0a1d62caf6f9dbfc",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/3eebfaa759156e06144892b00bb95304aa5a71c1",
+                "reference": "3eebfaa759156e06144892b00bb95304aa5a71c1",
                 "shasum": ""
             },
             "require": {
@@ -1327,7 +1327,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-02-15T14:31:32+00:00"
+            "time": "2017-02-22T16:07:04+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -3655,16 +3655,16 @@
         },
         {
             "name": "yab/quarx",
-            "version": "v2.3.3",
+            "version": "v2.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/YABhq/Quarx.git",
-                "reference": "f750082b6053b3c5c9ffd1dff5a7d485f4baa130"
+                "reference": "de507057878456301f78b46e7a04815420ff26ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/YABhq/Quarx/zipball/f750082b6053b3c5c9ffd1dff5a7d485f4baa130",
-                "reference": "f750082b6053b3c5c9ffd1dff5a7d485f4baa130",
+                "url": "https://api.github.com/repos/YABhq/Quarx/zipball/de507057878456301f78b46e7a04815420ff26ed",
+                "reference": "de507057878456301f78b46e7a04815420ff26ed",
                 "shasum": ""
             },
             "require": {
@@ -3711,7 +3711,7 @@
                 }
             ],
             "description": "Add a CMS to any Laravel apps gain control of: pages, blogs, galleries, events, custom modules, images and more.",
-            "time": "2017-02-20T05:30:08+00:00"
+            "time": "2017-02-22T04:53:33+00:00"
         }
     ],
     "packages-dev": [
