@@ -1,8 +1,8 @@
 # Quantum - A quick start application using the Quarx CMS powered by Laravel
 
 <p align="center">
-    <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-    <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+    <a href="https://travis-ci.org/yab/quantum"><img src="https://travis-ci.org/yab/quantum.svg" alt="Build Status"></a>
+    <a href="https://packagist.org/packages/yab/quantum"><img src="https://poser.pugx.org/yab/quantum/license.svg" alt="License"></a>
 </p>
 
 ## About Quantum
