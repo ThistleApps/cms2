@@ -38,7 +38,7 @@ You should now have a fully operational Quarx instance. Between the Laravel docs
 
 ## Learning Quarx
 
-Quarx is relatively simple in that the package handles most of its own elements you can override much of it though and there is thorough documentation available [here](http://quarxcms.com/docs)
+Quarx is relatively simple in that the package handles most of its own elements you can override much of it though and there is thorough documentation available [here](http://docs.quarxcms.com)
 
 ## License
 
