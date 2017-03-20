@@ -44,3 +44,18 @@ $factory->define(App\Models\Role::class, function (Faker\Generator $faker) {
         'label' => 'Member',
     ];
 });
+
+
+$factory->define(Quarx\Modules\Relations\Models\Relation::class, function (Faker\Generator $faker) {
+    return [
+        'lead_source_id' => 1,
+        'relationtype_id' => 1,
+        'name' => 'relation',
+        'slug' => 'relationslug',
+        'slaplan_id' => 1,
+        'slaexpirytime' => '0000-00-00',
+    ];
+});
+
+
+

@@ -2,7 +2,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateAccountsTable extends Migration
+class CreateRelationsTable extends Migration
 {
 
   /**
@@ -17,10 +17,13 @@ class CreateAccountsTable extends Migration
       $table->increments('id');
 
       $table->integer('lead_source_id')->unsigned()->nullable();
-      $table->integer('type_id')->unsigned()->nullable();
+      $table->integer('relationtype_id')->unsigned()->nullable();
 
       $table->string('name');
       $table->string('slug');
+
+      $table->integer('slaplan_id')->unsigned()->nullable();
+      $table->timestamp('slaexpirytime');
 
       $table->integer('adder_id')->unsigned()->nullable();
       $table->integer('modifier_id')->unsigned()->nullable();

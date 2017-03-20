@@ -168,6 +168,9 @@ return [
          */
         Laravel\Tinker\TinkerServiceProvider::class,
         Yab\Quarx\QuarxProvider::class,
+        Yajra\Datatables\DatatablesServiceProvider::class,
+
+
 
         /*
          * Application Service Providers...

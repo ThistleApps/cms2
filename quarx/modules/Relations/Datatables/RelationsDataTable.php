@@ -1,8 +1,8 @@
 <?php
 
-namespace Modules\Relations\DataTables;
+namespace Quarx\Modules\Relations\DataTables;
 
-use Modules\Relations\Models\Relations;
+use Quarx\Modules\Relations\Models\Relation;
 use Form;
 use Yajra\Datatables\Services\DataTable;
 
@@ -27,7 +27,7 @@ class RelationsDataTable extends DataTable
      */
     public function query()
     {
-        $relations = Relations::query();
+        $relations = Relation::query();
 
         return $this->applyScopes($relations);
     }
@@ -73,9 +73,8 @@ class RelationsDataTable extends DataTable
     {
         return [
             'name' => ['name' => 'name', 'data' => 'name'],
-            'shortname' => ['name' => 'shortname', 'data' => 'shortname'],
+            'slug' => ['name' => 'slug', 'data' => 'slug'],
             'relationtype_id' => ['name' => 'relationtype_id', 'data' => 'relationtype_id'],
-            'language_id' => ['name' => 'language_id', 'data' => 'language_id'],
             'slaplanid' => ['name' => 'slaplanid', 'data' => 'slaplanid'],
             'slaexpirytimeline' => ['name' => 'slaexpirytimeline', 'data' => 'slaexpirytimeline']
         ];
