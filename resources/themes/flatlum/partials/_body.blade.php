@@ -1,21 +1,22 @@
-<body class="sidebar-mini">
+@extends('quarx-frontend::partials._navigation')
+    <div class="overlay"></div>
 
-    <!-- Main body content -->
-    @include('partials._body_content')
+    <div class="raw100 raw-left raw-margin-top-50">
+        <div class="col-sm-3 col-md-2 sidebar">
+            <div class="raw100 raw-left raw-margin-bottom-90">
+                @include('quarx-frontend::partials._left_sidebar')
+            </div>
+        </div>
 
-
-    <!-- Footer -->
-    @include('partials._footer')
-
-    <!-- Optional bottom section for modals etc... -->
-    @yield('body_bottom')
-
-    <!-- Body Bottom modal dialog-->
-    <div class="modal fade" id="modal_dialog" tabindex="-1" role="dialog" aria-labelledby="modal_dialog_title" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+            <div class="col-md-12">
+                @yield('content')
             </div>
         </div>
     </div>
 
-</body>
+    <div class="raw100 raw-left navbar navbar-fixed-bottom">
+        <div class="raw100 raw-left quarx-footer">
+            @include('quarx-frontend::partials._footer')
+        </div>
+    </div>
