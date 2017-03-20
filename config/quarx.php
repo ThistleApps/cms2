@@ -47,7 +47,7 @@ return [
     */
 
     'frontend-namespace' => '\App\Http\Controllers\Quarx',
-    'frontend-theme' => 'quantum',
+    'frontend-theme' => 'flatlum', // default, quantum, cosmum, cybum, darklum
 
 
     /*
@@ -59,15 +59,10 @@ return [
     'load-modules' => true,
     'module-directory' => 'quarx/modules',
     'active-core-modules' => [
-        'blog',
         'menus',
-        'files',
         'images',
-        'pages',
         'widgets',
-        // 'gallery',
         'events',
-        'faqs',
     ],
 
     /*
@@ -101,6 +96,12 @@ return [
 
     'backend-title' => 'Quarx',
     'backend-theme' => 'flatly', // cosmo, cyborg, flatly, lumen, paper, sandstone, simplex, united, yeti
+    'active-backend-modules' => [
+        'menus',
+        'images',
+        'widgets',
+        'events',
+    ],
     'registration-available' => true,
     'pagination' => 50,
 
@@ -120,6 +121,39 @@ return [
     */
 
     'forms' => [
+
+        /*
+        'relations' => [
+            'name' => [
+                'type' => 'string',
+            ],
+            'slug' => [
+                'type' => 'string',
+            ],
+            'tags' => [
+                'type' => 'string',
+                'class' => 'tags',
+            ],
+            'notes' => [
+                'type' => 'text',
+                'class' => 'redactor',
+                'alt_name' => 'Notes',
+            ],
+            'isactive' => [
+                'type' => 'checkbox',
+                'alt_name' => 'Active',
+            ],
+            'published_at' => [
+                'type' => 'string',
+                'class' => 'datetimepicker',
+                'alt_name' => 'Publish Date',
+                'after' => '<span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>',
+            ],
+        ],
+        */
+
+
+
         'blog' => [
             'title' => [
                 'type' => 'string',
