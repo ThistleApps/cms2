@@ -1,29 +1,29 @@
-<nav class="navbar navbar-default navbar-fixed-top clearfix">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="{{ url('') }}">Home</a>
-        </div>
-        <div class="collapse navbar-collapse" id="navBar">
-            <ul class="nav navbar-nav">
-                <li><a href="{{ url('page/welcome') }}">Welcome</a></li>
-                <li><a href="{{ url('blog') }}">Blog</a></li>
-                <li><a href="{{ url('gallery') }}">Gallery</a></li>
-                <li><a href="{{ url('faqs') }}">FAQs</a></li>
-                <li><a href="{{ url('events') }}">Events</a></li>
-                @modules()
-            </ul>
-            <ul class="nav navbar-nav navbar-right menu">
-                @if (config('app.locale') == 'fr')
-                    @menu('main-fr')
-                @else
-                    @menu('main')
-                @endif
-            </ul>
-        </div>
+
+
+
+<div class="raw100 raw-left navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar-header">
+        <button class="navbar-toggle sidebar-menu-btn">
+            <span class="fa fa-bars nav-open"></span>
+            <span class="fa fa-close nav-close"></span>
+        </button>
+        <span class="navbar-brand">
+            <span class="quarx-logo"></span> {{ config('quarx.backend-title', 'Quarx') }}
+        </span>
+        @if (Auth::user())
+        <p class="navbar-text navbar-left raw-m-hide">Signed in as {{ Auth::user()->name }}</p>
+        @endif
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavbar">
+            <span class="fa fa-gear"></span>
+        </button>
     </div>
-</nav>
+    <div class="collapse navbar-collapse navbar-right" id="mainNavbar">
+        <ul class="nav navbar-nav">
+            <li><a href="{{ URL::to('/') }}"><span class="fa fa-arrow-left"></span> Back To Site </a></li>
+            @if (Auth::user())
+            <li><a href="/logout"><span class="fa fa-sign-out"></span> Logout</a></li>
+            @endif
+        </ul>
+    </div>
+</div>
+

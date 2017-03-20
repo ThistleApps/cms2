@@ -24,15 +24,15 @@ class PagesController extends Controller
      */
     public function home()
     {
-        $page = $this->pagesRepository->findPagesByURL('home');
+        //$page = $this->pagesRepository->findPagesByURL('home');
 
         $view = view('quarx-frontend::pages.home');
 
-        if (is_null($page)) {
+        /*if (is_null($page)) {
             return $view;
-        }
+        }*/
 
-        return $view->with('page', $page);
+        return $view;
     }
 
     /**
