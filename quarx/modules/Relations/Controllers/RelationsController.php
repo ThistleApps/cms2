@@ -28,4 +28,5 @@ class RelationsController extends Controller
 
         //return view('relations::relations.index');
     }
+
 }

@@ -75,7 +75,7 @@ class RelationsDataTable extends DataTable
             'name' => ['name' => 'name', 'data' => 'name'],
             'slug' => ['name' => 'slug', 'data' => 'slug'],
             'relationtype_id' => ['name' => 'relationtype_id', 'data' => 'relationtype_id'],
-            'slaplanid' => ['name' => 'slaplanid', 'data' => 'slaplanid'],
+            'hello' => ['name' => 'world', 'data' => 'slaplan_id'],
             'slaexpirytimeline' => ['name' => 'slaexpirytimeline', 'data' => 'slaexpirytimeline']
         ];
     }

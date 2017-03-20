@@ -420,7 +420,7 @@
     <div id="page-wrapper">
         <div class="container-fluid col-sm-12 page-heading">
         @yield('page_heading')
-        <div>
+        </div>
         <div class="site-wrapper @if(Request::is('/')) homepage @endif">
             <div class="container-fluid">
                 @yield('content')
@@ -441,7 +441,9 @@
 
     </div><!-- /#page-wrapper -->
 </div><!-- /#wrapper -->
-<script src="/themes/flatlum/js/frontend.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+@yield('scripts')
+{{--<script src="/themes/flatlum/js/frontend.js" type="text/javascript"></script>--}}
 
 </body>
 </html>

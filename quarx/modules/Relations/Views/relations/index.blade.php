@@ -9,25 +9,19 @@
         </h1>
     </section>
 
+    <div class="content">
         <div class="clearfix"></div>
         <div class="box box-primary">
             <div class="box-body">
-                    @include('relations::relations.table')
+                @include('relations::relations.table')
             </div>
         </div>
-
-
-@endsection
-
-@section('javascript')
-
-    @parent
-    <script type="text/javascript">
-
-        // add js here
-
-    </script>
+    </div>
 
 @endsection
+
+
+
+
 
 

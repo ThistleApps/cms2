@@ -1,4 +1,4 @@
-@section('css')
+@section('stylesheets')
     @include('relations::layouts.datatables_css')
 @endsection
 

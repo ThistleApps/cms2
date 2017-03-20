@@ -24,6 +24,11 @@ class RelationsModuleProvider extends ServiceProvider
             require __DIR__.'/Routes/relations-frontend.php';
         });
 
+        $this->app->router->group(['middleware' => ['api']], function ($router) {
+            require __DIR__.'/Routes/relations-api.php';
+        });
+
+
         // View namespace
         $this->app->view->addNamespace('relations', __DIR__.'/Views');
 

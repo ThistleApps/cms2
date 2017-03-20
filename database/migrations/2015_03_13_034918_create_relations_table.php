@@ -23,7 +23,7 @@ class CreateRelationsTable extends Migration
       $table->string('slug');
 
       $table->integer('slaplan_id')->unsigned()->nullable();
-      $table->timestamp('slaexpirytime');
+      $table->timestamp('slaexpirytimeline');
 
       $table->integer('adder_id')->unsigned()->nullable();
       $table->integer('modifier_id')->unsigned()->nullable();
