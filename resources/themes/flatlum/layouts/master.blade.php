@@ -29,6 +29,16 @@
         </div>
         <!-- /.navbar-header -->
 
+        <div class="collapse navbar-collapse" id="navBar">
+            <ul class="nav navbar-nav">
+                <li><a href="{{ url('page/welcome') }}">Welcome</a></li>
+                <li><a href="{{ url('blog') }}">Blog</a></li>
+                <li><a href="{{ url('gallery') }}">Gallery</a></li>
+                <li><a href="{{ url('faqs') }}">FAQs</a></li>
+                <li><a href="{{ url('events') }}">Events</a></li>
+                @modules()
+            </ul>
+
         <ul class="nav navbar-top-links navbar-right">
             <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown"
@@ -382,6 +392,9 @@
                     </li>
                 </ul>
             </div>
+
+    </div>
+
             <!-- /.sidebar-collapse -->
         </div>
         <!-- /.navbar-static-side -->

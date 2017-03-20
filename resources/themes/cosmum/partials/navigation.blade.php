@@ -18,11 +18,8 @@
                 @modules()
             </ul>
             <ul class="nav navbar-nav navbar-right menu">
-                @if (config('app.locale') == 'fr')
-                    @menu('main-fr')
-                @else
                     @menu('main')
-                @endif
+
             </ul>
         </div>
     </div>
