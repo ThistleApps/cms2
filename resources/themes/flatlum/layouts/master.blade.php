@@ -11,6 +11,7 @@
     <meta content="" name="author">
 
     <link rel="stylesheet" href="/themes/flatlum/css/styles.css">
+    
 </head>
 <body>
 <div id="wrapper">
