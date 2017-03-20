@@ -38,7 +38,7 @@ return [
      * --------------------------------------------------------------------------
     */
 
-    'live-preview' => false,
+    'live-preview' => true,
 
     /*
      * --------------------------------------------------------------------------
@@ -48,6 +48,7 @@ return [
 
     'frontend-namespace' => '\App\Http\Controllers\Quarx',
     'frontend-theme' => 'quantum',
+
 
     /*
      * --------------------------------------------------------------------------
@@ -65,7 +66,7 @@ return [
         'pages',
         'widgets',
         // 'gallery',
-        // 'events',
+        'events',
         'faqs',
     ],
 
@@ -99,9 +100,9 @@ return [
     */
 
     'backend-title' => 'Quarx',
-    'backend-theme' => 'united', // cosmo, cyborg, flatly, lumen, paper, sandstone, simplex, united, yeti
+    'backend-theme' => 'flatly', // cosmo, cyborg, flatly, lumen, paper, sandstone, simplex, united, yeti
     'registration-available' => true,
-    'pagination' => 25,
+    'pagination' => 50,
 
     /*
      * --------------------------------------------------------------------------
