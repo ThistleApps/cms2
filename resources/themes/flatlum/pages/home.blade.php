@@ -1,4 +1,4 @@
-@extends('layouts.dashboard')
+@extends('quarx-frontend::layouts.master')
 @section('page_heading','Dashboard')
 @section('section')
            

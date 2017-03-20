@@ -1,0 +1,1 @@
+<li class="@if (Request::is('quarx/relations') || Request::is('quarx/relations/*')) active @endif"><a href="{{ url('quarx/relations') }}"><span class="fa fa-file"></span> Relations</a></li>
